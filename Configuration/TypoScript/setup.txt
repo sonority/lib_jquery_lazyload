@@ -1,0 +1,14 @@
+page {
+	includeJSFooterlibs {
+		lib_jquery_lazyload = EXT:lib_jquery_lazyload/Resources/Public/JavaScript/jquery.lazyload.min.js
+		lib_jquery_lazyload {
+			disableCompression = 1
+			forceOnTop = 1
+		}
+		# Add custom lazyload-script
+		lib_jquery_lazyload_custom = {$plugin.tx_libjquerylazyload.settings.customScript}
+		lib_jquery_lazyload_custom {
+			disableCompression = 1
+		}
+	}
+}

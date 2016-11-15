@@ -1,0 +1,6 @@
+plugin.tx_libjquerylazyload {
+	settings {
+		# cat=jquery-lazyload//1; type=string; label=Use custom script
+	   customScript = EXT:lib_jquery_lazyload/Resources/Public/JavaScript/jquery.lazyload-custom.min.js
+	}
+}
